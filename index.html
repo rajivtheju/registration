@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+   <link rel="stylesheet" href="reg.css">
+</head>
+<body><div>
+    <h3>Student Registration Form</h3>
+    <form id="registrationForm">
+        <label >Name:</label>
+        <input type="text" id="nameInput" required>
+        
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" required>
+        
+        <label >Gender:</label>
+        <select id="genderSelect" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <label>Date of Birth:</label>
+        <input type="date" id="dobInput" required>
+        
+       <br> <button type="submit">Submit</button>
+    </form>
+    </div>
+
+   <script src="reg.js"></script>
+
+</body>
+</html>
